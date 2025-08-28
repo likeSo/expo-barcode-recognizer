@@ -90,5 +90,8 @@ npm run start
 MLKit会造成安装包增大。比如，在安卓上，大小增加约 2.4 MB。更多信息可以在[这里](https://developers.google.com/ml-kit/vision/barcode-scanning?hl=zh-cn)看。
 iOS的`GoogleMLKit/BarcodeScanning`（iOS基于此）不支持arm架构的模拟器，如果你希望在iOS模拟器上运行，请运行在Rosetta模拟器上，或者使用真机。
 
+### 联系我
+本框架积极维护，如有任何问题，欢迎提交issue或者PR。 QQ 群：682911244。
+
 ### 许可
 MIT
