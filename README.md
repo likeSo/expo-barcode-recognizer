@@ -1,7 +1,7 @@
 ## expo-barcode-recognizer
 
-- **简介 (ZH)**: 基于 Google ML Kit 的本地二维码/条形码识别器，提供一个简单的方法从本地图片中识别条码信息，完全离线运行。
-- **Overview (EN)**: A lightweight on-device barcode/QR recognizer powered by Google ML Kit. It exposes a single method to recognize barcodes from an image.
+基于 Google ML Kit 的本地二维码/条形码识别器，提供一个简单的方法从本地图片中识别条码信息，完全离线运行。
+A lightweight on-device barcode/QR recognizer powered by Google ML Kit. It exposes a single method to recognize barcodes from an image.
 
 ### 特性
 - **本地识别**: 依赖 Google ML Kit，离线运行，低延迟。
@@ -13,11 +13,7 @@
 npx expo install expo-barcode-recognizer
 ```
 
-如果你在裸工作流或需要原生构建：
-- 使用 Expo Dev Client 或运行预构建：
-```sh
-npx expo prebuild
-```
+由于包含原生代码，请用`npx expo prebuild`或者`npx expo run:android|ios`的方式启动项目。
 
 > 提示：如果你搭配 `expo-image-picker` 选择图片，请参考它的文档配置相册/相机权限。
 
